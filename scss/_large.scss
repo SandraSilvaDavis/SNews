@@ -1,0 +1,15 @@
+header, nav, main {
+    max-width: 1240px;
+    margin: auto;
+}
+
+/* NAVIGATION STUFF GOES HERE  */
+main{
+    div.storyGrid {
+        grid-template-columns:1fr 1fr 1fer 1fr;
+        lead{
+            grid-column: 1/ span 3;
+            grid-row:1 / span 2;
+        }
+    }
+}
